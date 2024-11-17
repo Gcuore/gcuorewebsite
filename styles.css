@@ -1,17 +1,41 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gcuore</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Gcuore</h1>
-        <p class="description">Un ragazzo che non fa niente.</p>
-        <button id="linkButton">Vai al canale YouTube</button>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+body {
+    background-color: #ff0000; /* Sfondo rosso */
+    color: #ffffff; /* Testo bianco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif; /* Font di default, senza Montserrat */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #ffffff; /* Bottone bianco */
+    color: #ff0000; /* Testo rosso */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffe5e5; /* Colore chiaro al passaggio del mouse */
+}
