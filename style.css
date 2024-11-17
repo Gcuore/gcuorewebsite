@@ -1,5 +1,7 @@
-/* Rimosso l'import del font Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #ff0000; /* Sfondo rosso */
     color: #ffffff; /* Testo bianco */
     margin: 0;
@@ -8,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Arial, sans-serif; /* Font di default */
 }
 
 .container {
