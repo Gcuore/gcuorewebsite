@@ -1,3 +1,4 @@
+/* Rimosso l'import del font Montserrat */
 body {
     background-color: #ff0000; /* Sfondo rosso */
     color: #ffffff; /* Testo bianco */
@@ -7,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Arial, sans-serif; /* Font di default, senza Montserrat */
+    font-family: Arial, sans-serif; /* Font di default */
 }
 
 .container {
