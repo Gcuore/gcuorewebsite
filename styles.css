@@ -1,14 +1,41 @@
-body {font-family: Arial, sans-serif;  
-}  
-  
-header {background: linear-gradient(to right, #FF0000, #FF0000);  
-}  
-  
-.card {transition: transform 0.3s;  
-}  
-  
-.card:hover {transform: scale(1.05);  
-}  
-  
-footer {position: absolute;bottom: 0;width: 100%;  
-}  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff0000; /* Sfondo rosso */
+    color: #ffffff; /* Testo bianco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ff0000; /* Sfondo rosso */
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+h1, .description {
+    color: #ffffff; /* Testo bianco */
+}
+
+button {
+    background-color: #ffffff; /* Bottone bianco */
+    color: #ff0000; /* Testo rosso sul bottone */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffe5e5; /* Colore chiaro al passaggio del mouse */
+    color: #ff0000; /* Mantieni il testo rosso */
+}
