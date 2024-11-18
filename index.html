@@ -19,17 +19,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina con Barra di Navigazione</title>
+    <title>Pagina con Barra di Navigazione in Alto</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-        /* Stile per la barra di navigazione */
+        /* Barra di navigazione fissata in alto */
         nav {
             background-color: #333;
             overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Assicura che la barra sia sopra il resto della pagina */
         }
         nav a {
             float: left;
@@ -45,7 +50,7 @@
         }
         /* Spazio tra il contenuto e la barra di navigazione */
         .content {
-            padding: 20px;
+            padding: 60px 20px 20px 20px; /* Aggiunto 60px per lasciare spazio per la navbar fissa */
         }
     </style>
 </head>
@@ -58,3 +63,13 @@
         <a href="#services">Servizi</a>
         <a href="#contact">Contatti</a>
     </nav>
+
+    <!-- Contenuto della pagina -->
+    <div class="content">
+        <h1>Benvenuto sulla nostra pagina</h1>
+        <p>Qui troverai tutte le informazioni sui nostri servizi.</p>
+        <p>Utilizza la barra di navigazione sopra per esplorare le varie sezioni.</p>
+    </div>
+
+</body>
+</html>
