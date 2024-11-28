@@ -7,8 +7,3 @@ document.getElementById('youtubeButton').addEventListener('click', function () {
 document.getElementById('githubButton').addEventListener('click', function () {
     window.open('https://github.com/Gcuore', '_blank');
 });
-
-// Bottone per Calc
-document.getElementById('githubButton').addEventListener('click', function () {
-    window.open('https://gcuore.github.io/calc', '_blank');
-});
